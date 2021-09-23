@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="45dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/georgia" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="45dp"
+        android:layout_height="65dp"
+        app:layout_constraintCircle="@id/imageView"
+        app:layout_constraintCircleAngle="0"
+        app:layout_constraintCircleRadius="100dp"
+        app:srcCompat="@drawable/barbados" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="45dp"
+        android:layout_height="65dp"
+        app:layout_constraintCircle="@id/imageView"
+        app:layout_constraintCircleAngle="45"
+        app:layout_constraintCircleRadius="100dp"
+        app:srcCompat="@drawable/ceuta" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="45dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/grenada"
+        app:layout_constraintCircle="@id/imageView"
+        app:layout_constraintCircleAngle="90"
+        app:layout_constraintCircleRadius="100dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="45dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/turkmenistan"
+        app:layout_constraintCircle="@id/imageView"
+        app:layout_constraintCircleAngle="135"
+        app:layout_constraintCircleRadius="100dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="45dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/abkhazia"
+        app:layout_constraintCircle="@id/imageView"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="100dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="45dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/brazil"
+        app:layout_constraintCircle="@id/imageView"
+        app:layout_constraintCircleAngle="225"
+        app:layout_constraintCircleRadius="100dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="45dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/ceuta"
+        app:layout_constraintCircle="@id/imageView"
+        app:layout_constraintCircleAngle="270"
+        app:layout_constraintCircleRadius="100dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="45dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/grenada"
+        app:layout_constraintCircle="@id/imageView"
+        app:layout_constraintCircleAngle="315"
+        app:layout_constraintCircleRadius="100dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
